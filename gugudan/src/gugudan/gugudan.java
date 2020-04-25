@@ -15,6 +15,9 @@ public class gugudan {
 				System.out.printf("\n");
 			}
 		}
+		else if(a<0) {
+			System.out.print("구구단 출력 불가");
+		}
 		else {
 			for(int i = 1;i<10;i++) {
 				System.out.printf("%d * %d = %d\n",a,i,a*i);
